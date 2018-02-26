@@ -19,6 +19,6 @@ export default class Contact extends React.Component {
 }
 
 const Container = glamorous.div({
-    backgroundColor: colors.irisinami,
+    backgroundColor: colors.black,
     color: '#FFFFF'
 });

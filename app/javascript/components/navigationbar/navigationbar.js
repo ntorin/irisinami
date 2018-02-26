@@ -1,11 +1,15 @@
 import React from 'react'
 import glamorous from 'glamorous'
 
+import { colors } from 'helpers/constants'
+
 export default class NavigationBar extends React.Component {
     render() {
         return (
-            <Container class="navbar navbar-expand-sm navbar-fixed-top">
-                <a class="navbar-brand" href="#">Iris Inami</a>
+            <Container>
+                <a class="navbar-brand" href="#">
+                    <img src="../../../assets/irisinami/iconnobg.png" width="30" height="30" alt=""/>
+                </a>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
@@ -32,7 +36,12 @@ export default class NavigationBar extends React.Component {
     }
 }
 
-const Container = glamorous.div({
-    backgroundColor: colors.irisinami,
-    color: '#FFFFF'
-});
+const NavLink = glamorous.a({
+    color: colors.white,
+    backgounrColor: colors.irisinami
+}, props => 'nav-link');
+
+const Container = glamorous.nav({
+    backgroundColor: '#000000',
+    color: colors.white
+}, props => 'navbar navbar-dark navbar-expand-sm navbar-fixed-top');

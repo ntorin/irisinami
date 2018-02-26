@@ -4,9 +4,22 @@
 
 import React from 'react'
 
+import NavigationBar from 'components/navigationbar/navigationbar'
+import About from 'components/about/about'
+import Products from 'components/products/products'
+import Contact from 'components/contact/contact'
+
 export default class Landing extends React.Component {
     render() {
-        return <div>Hello {this.props.name}!</div>
+        return (
+            <div class="container-fluid">
+                <NavigationBar/>
+                <About/>
+                <Products/>
+                <Contact/>
+            Hello {this.props.name}!
+            </div>
+        )
     }
 }
 

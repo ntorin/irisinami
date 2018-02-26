@@ -27,7 +27,7 @@ export default class NavigationBar extends React.Component {
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Blog</a>
+                            <a class="nav-link disabled">Blog<sup>coming soon!</sup></a>
                         </li>
                     </ul>
                 </div>

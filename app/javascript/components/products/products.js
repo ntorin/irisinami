@@ -9,7 +9,6 @@ export default class Products extends React.Component {
     render() {
         return (
             <Container>
-                <Title>Products</Title>
                 <Citrume/>
             </Container>
         )

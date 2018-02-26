@@ -30,4 +30,4 @@ export default class Landing extends React.Component {
 const Container = glamorous.div({
     backgroundColor: colors.irisinami,
     color: '#FFFFF'
-}, props => 'container-fluid');
+}, props => 'no-gutters');

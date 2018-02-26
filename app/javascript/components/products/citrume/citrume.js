@@ -22,7 +22,8 @@ export default class Citrume extends React.Component {
 const Container = glamorous.div({
     backgroundColor: colors.citrume,
     color: colors.white,
-    textAlign: 'center'
+    textAlign: 'center',
+    padding: '20px'
 });
 
 const Title = glamorous.h2({

@@ -8,12 +8,6 @@ export default class About extends React.Component {
         return (
             <Container>
                 <img src="../../../assets/irisinami/logo.png" class="img-fluid" alt="Iris Inami"/>
-                <Slogan>
-                    Nect
-                </Slogan>
-                <Mission>
-                    ari
-                </Mission>
             </Container>
         )
     }
@@ -23,7 +17,7 @@ const Container = glamorous.div({
     backgroundColor: colors.irisinami,
     backgroundImage: 'url("../../../assets/misc/bg.png")',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center center',
+    backgroundPosition: 'center center'
 });
 
 const Slogan = glamorous.h1({
